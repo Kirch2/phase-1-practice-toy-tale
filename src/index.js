@@ -35,6 +35,9 @@ const renderToy = (toy) => {
   btn.id = toy.id;
   btn.innerText = "Like";
 
+  //event listener first to increase likes
+  //parseInt (function) + 1
+
   //Append variables defined above to page
   toyDiv.append(h2);
   toyDiv.append(img);
